@@ -26,18 +26,7 @@ public class EmpWageComp {
 			hrOfDay = 0;
 		}
 		}
-//		if (empCheck == IS_PRESENT) {
-//			System.out.println("Employee is Present");
-//			hrOfDay = 8;
-//
-//		} else if (empCheck == IS_PART_TIME) {
-//			System.out.println("Employee is Part time");
-//			hrOfDay = 4;
-//
-//		} else {
-//			System.out.println("Employee is Absent");
-//			hrOfDay = 0;
-//		}
+
 		int empWage = WAGE_PER_HR * hrOfDay;
 		System.out.println("Daily Employee wage is : " + empWage);
 	}
