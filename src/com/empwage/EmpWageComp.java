@@ -29,6 +29,11 @@ public class EmpWageComp {
 			System.out.println("Day " + i + " Employee wage is : " + empWage);
 			totalWage = totalWage + empWage;
 		}
+
 		System.out.println("Total Emp wage for 20 days = " +totalWage);
+
+		}
+
+	
 	}
-}
+
